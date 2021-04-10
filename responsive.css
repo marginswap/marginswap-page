@@ -1,0 +1,257 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .navbar-toggler {
+        background: #ffffff;
+    }
+
+    ul.navbar-nav {
+        background: #1f1ec5;
+        padding: 15px 15px;
+    }
+
+    #body>section {
+        position: relative;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .text-end {
+        display: none;
+    }
+
+    .hero-banner-info-box>h1 {
+        font-size: 22px;
+    }
+
+    .heading-group>h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .display-flex {
+        display: block;
+    }
+
+    .we-do-info-box {
+        padding-left: 0;
+        padding-top: 2em;
+        text-align: center;
+        padding-bottom: 2em;
+    }
+
+    .we-do-box-section>.we-do-box-wrap:nth-of-type(even) .we-do-info-box {
+        padding-right: 0;
+        padding-top: 2em;
+        text-align: center;
+    }
+
+    .about-img-box>.img-one,
+    .about-img-box>.img-two,
+    .about-img-box>.img-three {
+        left: 0;
+        margin-bottom: 3em;
+    }
+
+    .roadmap-box {
+        background: none;
+        height: auto;
+    }
+
+    .globe-box {
+        width: 90px;
+        top: 0px;
+    }
+
+    .map1 {
+        position: relative;
+        left: inherit;
+        top: 0;
+        padding-bottom: 160px;
+    }
+
+    .map1:after {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .map1:before {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .map2 {
+        position: relative;
+        left: inherit;
+        bottom: inherit;
+        padding-bottom: 160px;
+    }
+
+    .map2:after {
+        bottom: 35px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .map2:before {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .map3 {
+        position: relative;
+        left: inherit;
+        top: inherit;
+        padding-bottom: 160px;
+    }
+
+    .map3:after {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .map3:before {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .map4 {
+        position: relative;
+        right: inherit;
+        bottom: inherit;
+        padding-bottom: 160px;
+    }
+
+    .map4:after {
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 35px;
+    }
+
+    .map4:before {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .map-info-box {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .flag-box {
+        position: relative;
+        right: inherit;
+        top: inherit;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .flag-box>img {
+        position: relative;
+        right: -47px;
+    }
+
+    ul.social-links>li {
+        margin: 0 10px;
+    }
+
+    ul.social-links>li>a {
+        font-size: 25px;
+    }
+
+    .cta-info-box {
+        text-align: center;
+    }
+
+    .call-to-action-section {
+        padding-top: 2em;
+    }
+
+    .cta-info-box h5 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    ul.footer-social-links {
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-toggler {
+        background: #ffffff;
+    }
+
+    .text-end {
+        display: none;
+    }
+
+    .why-choose-info-box {
+        padding: 0 0;
+    }
+
+    .we-do-info-box {
+        padding-left: 2em;
+    }
+
+    .we-do-box-section>.we-do-box-wrap:nth-of-type(even) .we-do-info-box {
+        padding-right: 2em;
+        padding-left: 0;
+    }
+
+    .globe-box {
+        width: 90px;
+        top: -30px;
+    }
+
+    .flag-box {
+        position: absolute;
+        right: 60px;
+        top: 44px;
+    }
+
+    .map1 {
+        left: 30px;
+        top: 120px;
+    }
+
+    .map2 {
+        left: 210px;
+        bottom: 22px;
+    }
+
+    .map3 {
+        left: 350px;
+        top: 43px;
+    }
+
+    .map4 {
+        right: 70px;
+        bottom: 60px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+
+    #header ul.navbar-nav>li.nav-item{
+        margin: 0 8px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {}
