@@ -515,14 +515,14 @@ a.app-blue-btn:hover {
     padding-left: 22px;
 }
 
-.map-info-box>h5 {
+.map-content-box>h5 {
     font-size: 24px;
     font-weight: 800;
     color: #000000;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
-.map-info-box>p {
+.map-content-box>p {
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
